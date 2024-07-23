@@ -42,7 +42,7 @@ En nuestra página, ofrecemos una amplia variedad de deliciosa comida rápida co
 
 ### Imagen de la Seccion de Servicios 🍕
 
-![Imagen de la Seccion de Servicios ]!(https://github.com/user-attachments/assets/80449322-d417-40bc-9380-88fc5543b828)
+![Imagen de la Seccion de Menu ](https://github.com/user-attachments/assets/80449322-d417-40bc-9380-88fc5543b828)
 
 ## Tecnologías Utilizadas 📱
 
