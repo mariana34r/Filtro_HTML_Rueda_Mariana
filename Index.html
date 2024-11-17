@@ -1,182 +1,178 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Foods</title>
+    <link rel="icon" href="images\home.png">
+</head>
     <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 </head>
 <body>
-    
+    <header>
+        <nav>
+            <h1 class="margen">Foods</h1>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class='bx bx-menu'></i>
+            </label>
+            <ul>
+                <li><a href="#casa" >Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#service">Service</a></li>
+                <li><a href="#contact">Contact</a></li>
 
-<header class="header">
-    <div class="color_titulo">
-        <nav class="navigation">
-            <a href="#Home">Home</a>
-            <a href="#About">About</a>
-            <a href="#Menu">Menu</a>
-            <a href="#Service">Service</a>
-            <a href="#Service">Contact</a>
+            </ul>
         </nav>
-    </div>
-</header>
-
-
-
-
-
-
-   
-
-
-    <section id="Home" >
-        <div class="section">
-        <div class="contenedor">
-            <div class="letra_titulo">
-                <h1>Full  Wedsite </h1>
-                <p>Foods the</p>
-                <p>Most Precious Thing</p>
-               </div>
-            <div class="imagen_comienzo">
-            <img src="home.png" alt="">
+    </header>
+    <main>
+        <Section>
+            <div id="casa" class="seccion1">
+                <div class="text">
+                    <p class="titulo">Full Website</p>
+                    <p class="subtitulo">Foods the </p> 
+                    <p class="subtitulo">most precious thing</p> 
+                    <button>Today's Menu</button>
+                </div>
+                <div class="imag">
+                    <img src="images/home.png" alt="imagen home" >
+                </div> 
             </div>
-        </div>
-    </section>
 
-
-
-  
-
-
-
-
-   
-
-
-    <section id="About">
-        <div class="section2">
-            <div class="contenedor">
-                <div class="imagen_comienzo2">
-                    <img src="about.png" alt="About Us Image">
-                </div>
-                <div class="letra_titulo2">
-                    <div class="titulo2">
-                        <p style="color: rgb(255, 115, 0);">About us</p>
-                    </div>
-                    <h3>We Speak The good food language</h3>
-                    <p>It is a long established fact that a</p>
-                    <p>be distracted by the readable content</p>
-                    <p>Looking at its layout. The point of</p>
-                </div>
+            <div id="about" class="seccion2">
+                <div class="imag">
+                    <img src="images/about.png" alt="imagen home" >
+                </div> 
+                <div class="text">
+                    <p class="titulo">We speak the good food languaje</p>
+                    <p class="subtitulo">It is a long established fact that a be distracted by the readable content looking at its layout. The point of </p> 
+                    
+                    <button>Learn More</button>
+                </div> 
             </div>
-        </div>
-    </section>
-
-
-
-
-
-    <section3 id="Menu">
-        <div class="contenedor">
-            <div class="section3">
-                <div class="letra_titulo3">
-                    <p style="color: rgb(250, 80, 2);">Menu</p>
-                    <h1>Fresh taste and grat price</h1>
-                </div>
-                <div class="libreria">
-                    <div class="imagen_1">
-                        <a href="" target="_blank"><img src="food1.png" alt=""></a>
-                        <p>Chicken Burger</p>
-                        <div class="texto_peuqeño">
-                            <p>Tasty Food</p>
+            <div id="menu" class="seccion3">
+                <div class="text">
+                    <p class="titulo"> Fresh taste and grat price</p>
+                </div> 
+                <div class="imagenes">
+                    <div class="cuadro">
+                        <div class="carrito">
+                            <i class='bx bx-cart-download'></i>
                         </div>
-                        <p>11.00</p>
-                    </div>
-    
-                    <div class="imagen_2">
-                        <a href="" target="_blank"><img src="food2.png" alt=""></a>
-                        <p>Special Beef Burger</p>
-                        <div class="texto_peuqeño">
-                            <p>Tasty Food</p>
+                        <img src="images/food1.png" alt="imagen home" >
+                        <p class="prime">Chicken Burger</p>
+                        <p>Tasty Food</p>
+                        <p>$11.80</p>
+                    </div> 
+                    <div class="cuadro">
+                        <div class="carrito">
+                            <i class='bx bx-cart-download'></i>
                         </div>
-                        <p>11.00</p>
-                    </div>
-                    <div class="imagen_3">
-                        <a href="" target="_blank"><img src="food3.png" alt=""></a>
-                        <p>Chicken Fry Pack</p>
-                        <div class="texto_peuqeño">
-                            <p>Tasty Food</p>
+                        <img src="images/food2.png" alt="imagen home" >
+                        <p class="prime">Special Beef Burger</p>
+                        <p>Tasty Food</p>
+                        <p>$11.80</p>
+                    </div> 
+                    <div class="cuadro">
+                        <div class="carrito">
+                            <i class='bx bx-cart-download'></i>
                         </div>
-                        <p>11.00</p>
+                        <img src="images/food3.png" alt="imagen home" >
+                        <p class="prime">Chicken Frid Pack</p>
+                        <p>Tasty Food</p>
+                        <p>$11.80</p>
+                    </div> 
+                </div>
+                
+            </div>
+            <div id="service" class="seccion4">
+                <div class="text">
+                    <p class="titulo">We provide best food service</p>
+                </div> 
+                <div class="imageneservice">
+                    <div class="cuadro">
+                        <img src="images/s1.png" alt="imagen home" >
+                        <p class="prime">Order</p>
+                        <p>It is a long established be distracted by the readable looking at its layout. </p>
+                    </div> 
+                    <div class="cuadro">
+                    
+                        <img src="images/s2.png" alt="imagen home" >
+                        <p class="prime">Shipping</p>
+                        <p>It is a long established be distracted by the readable looking at its layout. </p>
+                    </div> 
+                    <div class="cuadro">
+                        
+                        <img src="images/s3.png" alt="imagen home" >
+                        <p class="prime">Dellwered</p>
+                        <p>It is a long established be distracted by the readable looking at its layout. </p>
                     </div>
                 </div>
             </div>
-        </div>
-    </section3>
-    
 
 
-
-
-
-
-
-
-
-
-
-    <section3 id="Service">
-        <div class="contenedor">
-            <div class="section4">
-                <div class="letra_titulo3">
-                    <p style="color: rgb(250, 80, 2);">Servicios</p>
-                    <h1>We Provide best food Services</h1>
-                </div>
-                <div class="libreria">
-                    <div class="imagen_1">
-                        <a href="" target="_blank"><img src="s1.png" alt=""></a>
-                        <p style="color: rgb(250, 80, 2);">Order</p>
-                        <p>It is a long established</p>
-                        <p>be distracted by thge readable be</p>
-                        <p>looking at its layout</p>
+            <div id="contact" class="seccion5">
+                <div class="subcont">
+                    <div class="text">
+                        <div class="titulo">
+                            <p>We make quality food everyday</p>
+                        </div>          
+                            <button >Learn More</button>  
                     </div>
-    
-                    <div class="imagen_2">
-                        <a href="" target="_blank"><img src="s2.png" alt=""></a>
-                        <p style="color: rgb(250, 80, 2);">Shipping</p>
-                        <p>It is a long established</p>
-                        <p>be distracted by thge readable be</p>
-                        <p>looking at its layout</p>
-                    </div>
-    
-                    <div class="imagen_3">
-                        <a href="" target="_blank"><img src="s3.png" alt=""></a>
-                        <p style="color: rgb(250, 80, 2);">Dellvered</p>
-                        <p>It is a long established</p>
-                        <p>be distracted by thge readable be</p>
-                        <p>looking at its layout</p>
-                    </div>
-    
                 </div>
             </div>
-        </div>
-    </section3>
+            <div class="seccion6">
+                
+                <div class="text">
+                    <div class="titulo">
+                        <p class="principal">Menu Links</p>
+                        <hr>
+                        <p><a href="#casa" >Home</a></p>
+                        <p><a href="#about">About</a></p>
+                        <p><a href="#menu">Menu</a></p>
+                        <p><a href="#service">Service</a></p>
+                        <p><a href="#contact">Contact</a></p>
+                    </div>          
+                    <div class="titulo">
+                        <p class="principal">Our Service</p>
+                        <hr>
+                        <p>Web Design</p>
+                        <p>Web Development</p>
+                        <p>Marketing</p>
+                        <p>Product Management</p>
+                        <p>Graphic Design</p>
+
+                    </div> 
+                    <div class="titulo">
+                        <p class="principal">Information</p>
+                        <hr>
+                        <p>About Us</p>
+                        <p>Delivery Information</p>
+                        <p>Privacy Policy</p>
+                        <p>Terms Conditions</p>
+
+                    </div> 
+                    <div class="titulo">
+                        <p class="principal">Contact Us</p>
+                        <hr>
+                        <div class="cont">
+                            <i class='bx bxl-instagram'></i>
+                            <i class='bx bxl-whatsapp' ></i>
+                            <i class='bx bxl-facebook' ></i>
+                            <i class='bx bxl-twitter' ></i> 
+                        </div>   
+                    </div>   
+                </div>  
+            </div>
 
 
+        </Section>
+    </main>
 
+    <footer>
 
-    <section id="Home" >
-        <div class="section">
-        <div class="contenedor">
-            <div class="letra_titulo">
-                <h1>Make quality food Everyday</h1>
-               </div>
-        </div>
-    </section>
-
-
-
-
-
+    </footer>
 </body>
 </html>
