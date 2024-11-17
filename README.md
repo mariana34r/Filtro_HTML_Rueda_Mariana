@@ -30,7 +30,7 @@ En nuestra página, ofrecemos una amplia variedad de deliciosa comida rápida co
 
 ### Imagen de la Seccion de Home 🍕
 
-![Imagen de la Seccion de inicio ](https://github.com/user-attachments/assets/44049821-b37a-4c3b-8dc4-229a405871a6)
+![image](https://github.com/user-attachments/assets/f948a22c-e553-42a2-acb1-be21d8442212)
 
 ### Imagen de la Seccion de About 🍟
 
@@ -43,6 +43,9 @@ En nuestra página, ofrecemos una amplia variedad de deliciosa comida rápida co
 ### Imagen de la Seccion de Servicios 🍕
 
 ![Imagen de la Seccion de Menu ](https://github.com/user-attachments/assets/80449322-d417-40bc-9380-88fc5543b828)
+
+### Imagen de la Seccion de Contacto 🍕
+![image](https://github.com/user-attachments/assets/49bf3f33-6012-487d-a07b-34411d8adb63)
 
 ## Tecnologías Utilizadas 📱
 
